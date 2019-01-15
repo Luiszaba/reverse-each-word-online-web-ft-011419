@@ -4,6 +4,6 @@ def reverse_each_word(sentence)
     reverse = reverses.split
     reverse.join(" ")
   end
-  reverses
+  reverse
 end
 end
