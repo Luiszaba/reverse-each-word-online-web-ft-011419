@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   reverse = "Hello there, and how are you?"
-  sentence.collect do |reverses|
-    reverse = reverses.split
+  reverse.collect do |reverses|
+    sentence = reverses.split
     reverse.join(" ")
   end
   reverse
